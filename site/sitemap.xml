@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://dbablog.eu/HowToDBA/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbablog.eu/HowToDBA/about/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbablog.eu/HowToDBA/license/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbablog.eu/HowToDBA/troubleshooting/failed_connections/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbablog.eu/HowToDBA/troubleshooting/server_uptime/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
