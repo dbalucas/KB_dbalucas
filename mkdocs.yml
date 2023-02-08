@@ -1,23 +1,42 @@
+site_name: 'KB PostgreSQL DBA'
+
+plugins: 
+  - search
+  - markdownextradata
+
+repo_name: 'HowTo_DBA'
+site_url: https://dbalucas.github.io/HowTo_DBA
+repo_url: https://github.com/dbalucas/HowTo_DBA
+
 nav:
-  - Home: 
-    - 'Home': 'README.md'
+  - Home: 'README.md'
   - Troubleshooting:
     - 'Failed connections': 'troubleshooting/failed_connections.md'
     - 'Server uptime': 'troubleshooting/server_uptime.md'
   - About: 'about.md'
   - License: 'license.md'
 
-
 theme:
-  name: readthedocs
-  highlightjs: true
+  name: 'material'
+  palette: 
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: pink
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
   hljs_languages:
       - yaml
       - pythong
       - pgsql
   prev_next_buttons_location: both
   local: en
-
-site_name: 'HowTo be a PostgreSQL DBA'
-site_url: https://dbablog.eu/HowToDBA
-repo_url: https://github.com/dbalucas/HowTo_DBA
+  font: false
