@@ -1,5 +1,6 @@
 nav:
-  - Home: 'README.md'
+  - Home: 
+    - 'Home': 'README.md'
   - Troubleshooting:
     - 'Failed connections': 'troubleshooting/failed_connections.md'
     - 'Server uptime': 'troubleshooting/server_uptime.md'
