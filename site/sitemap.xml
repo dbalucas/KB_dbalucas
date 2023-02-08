@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dbalucas.github.io/HowTo_DBA/</loc>
+         <loc>https://dbalucas.github.io/KB_dbalucas/</loc>
          <lastmod>2023-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dbalucas.github.io/HowTo_DBA/about/</loc>
+         <loc>https://dbalucas.github.io/KB_dbalucas/about/</loc>
          <lastmod>2023-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dbalucas.github.io/HowTo_DBA/license/</loc>
+         <loc>https://dbalucas.github.io/KB_dbalucas/license/</loc>
          <lastmod>2023-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dbalucas.github.io/HowTo_DBA/troubleshooting/failed_connections/</loc>
+         <loc>https://dbalucas.github.io/KB_dbalucas/git_howtos/git_rules/</loc>
          <lastmod>2023-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dbalucas.github.io/HowTo_DBA/troubleshooting/server_uptime/</loc>
+         <loc>https://dbalucas.github.io/KB_dbalucas/troubleshooting/failed_connections/</loc>
+         <lastmod>2023-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbalucas.github.io/KB_dbalucas/troubleshooting/server_uptime/</loc>
          <lastmod>2023-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>

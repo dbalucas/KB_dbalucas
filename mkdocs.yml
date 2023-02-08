@@ -1,15 +1,17 @@
-site_name: 'KB PostgreSQL DBA'
+site_name: 'KB dbalucas'
 
 plugins: 
   - search
   - markdownextradata
 
-repo_name: 'HowTo_DBA'
-site_url: https://dbalucas.github.io/HowTo_DBA
-repo_url: https://github.com/dbalucas/HowTo_DBA
+repo_name: 'KB_dbalucas'
+site_url: https://dbalucas.github.io/KB_dbalucas
+repo_url: https://github.com/dbalucas/KB_dbalucas
 
 nav:
   - Home: 'README.md'
+  - Usage of GIT: 
+    - 'Git Rules': 'git_howtos/git_rules.md'
   - Troubleshooting:
     - 'Failed connections': 'troubleshooting/failed_connections.md'
     - 'Server uptime': 'troubleshooting/server_uptime.md'
@@ -22,6 +24,7 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       primary: pink
+      accent: pink
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to light mode
@@ -29,6 +32,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       primary: pink
+      accent: pink
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
