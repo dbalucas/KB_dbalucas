@@ -1,4 +1,4 @@
 # How To be a PostgreSQL DBA
-This repository contains all my DBA KnowHow and is a great list of quick and searchable commands for administrating a database
+This repository contains all my DBA KnowHow and will be updated continuasly. A searchable list of commands for administrating a databases.
 
-Now to me: 👋 Hi, I’m [@dbalucas](about.md).
+Let me introduce myself: 👋 Hi, I’m [@dbalucas](about.md).
