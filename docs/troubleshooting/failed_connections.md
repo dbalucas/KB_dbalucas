@@ -1,8 +1,7 @@
 ---
 title: Troubleshooting failed database connections
 summary: Troubleshooting failed database connections.
-authors:
-    - dbalucas
+authors: [dbalucas]
 date: 2023-02-08
 some_url: https://github.com/dbalucas
 ---

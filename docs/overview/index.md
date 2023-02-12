@@ -1,6 +1,6 @@
 ---
 tile: KnowHow Overview
-authors: [dblucas]
+authors: [dbalucas]
 ---
 
 # KnowHow Overview
