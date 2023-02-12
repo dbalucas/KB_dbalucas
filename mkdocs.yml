@@ -1,34 +1,47 @@
+# Project information
 site_name: 'KB dbalucas'
-
-plugins: 
-  - search
-  - markdownextradata
-
-repo_name: 'KB_dbalucas'
 site_url: https://dbalucas.github.io/KB_dbalucas
+site_author: dbalucas
+site_description: >-
+  This repository contains all my DBA KnowHow and is a great list of quick 
+  and searchable commands for administrating a database.
+
+# Repository
+repo_name: 'KB_dbalucas'
 repo_url: https://github.com/dbalucas/KB_dbalucas
 
-nav:
-  - Home: 'README.md'
-  - Usage of GIT: 
-    - 'Git Rules': 'git_howtos/git_rules.md'
-  - Troubleshooting:
-    - 'Failed connections': 'troubleshooting/failed_connections.md'
-    - 'Server uptime': 'troubleshooting/server_uptime.md'
-  - About: 'about.md'
-  - License: 'license.md'
+# Copyright
+copyright: Copyright &copy; 2023 - 2023 dbalucas
 
+# Configuration
 theme:
-  name: 'material'
+  name: material
+  # custom_dir: material/.overrides
+  features:
+    # - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette: 
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: pink
-      accent: pink
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to light mode
-
     # Palette toggle for light mode
     - scheme: default
       primary: pink
@@ -36,11 +49,58 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
 
-  hljs_languages:
-      - yaml
-      - pythong
-      - pgsql
-  prev_next_buttons_location: both
-  local: en
-  font: false
+  # hljs_languages:
+  #     - yaml
+  #     - pythong
+  #     - pgsql
+  # prev_next_buttons_location: both
+  # font: false
+nav:
+- Blog:
+    - blog/index.md
+    - 2023:
+      - hello-world.md
+plugins:
+  - blog:
+      blog_dir: .
+
+  # - markdownextradata
+  # - search
+
+# blog:
+#   include_nav: true
+#   include_rss: true
+#   base_url: /blog/
+#   post_dir: blog/posts
+#   per_page: 3
+#   rss_limit: 10
+#   archive_title: Blog Archive
+#   archives_url: blog/archives/
+#   templates:
+#     post: blog/posts/post_template.md
+
+# nav:
+#   - Home: README.md
+#   - Blog:
+#     - blog/index.md
+  # - Git Howtos:
+  #   - Setup GitHub Pages: git_howtos/setup_github_pages_mkdocs.md
+  # - Troubleshooting:
+  #   - 'Failed connections': 'troubleshooting/failed_connections.md'
+  #   - 'Server uptime': 'troubleshooting/server_uptime.md'
+  # - About: 'about.md'
+  # - License: 'license.md'

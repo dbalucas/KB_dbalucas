@@ -2,32 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/about/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/license/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbalucas.github.io/KB_dbalucas/blog/</loc>
+         <lastmod>2023-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbalucas.github.io/KB_dbalucas/blog/posts/hello-world/</loc>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/git_howtos/git_rules/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dbalucas.github.io/KB_dbalucas/git_howtos/setup_github_pages_mkdocs/</loc>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/troubleshooting/failed_connections/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dbalucas.github.io/KB_dbalucas/troubleshooting/server_uptime/</loc>
-         <lastmod>2023-02-08</lastmod>
+         <lastmod>2023-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
