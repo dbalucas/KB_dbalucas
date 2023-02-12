@@ -26,83 +26,130 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
+    - navigation.tracking
     # - navigation.expand
+    - navigation.path
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
   palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      primary: pink
-      accent: pink
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    # Palette toggle for dark mode
     - scheme: slate
       primary: pink
       accent: pink
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to light mode
+    - scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
     logo: logo
+  hljs_languages:
+      - yaml
+      - pythong
+      - pgsql
+  prev_next_buttons_location: both
 
-  # hljs_languages:
-  #     - yaml
-  #     - pythong
-  #     - pgsql
-  # prev_next_buttons_location: both
-  # font: false
 nav:
-- Blog:
+  - Home: 
+    - README.md
+  - About: about.md
+  - KnowHow:
+    - Git: 
+      - git_howtos/git_rules.md
+      - git_howtos/setup_github_pages_mkdocs.md
+      - git_howtos/new.md
+    - Troubleshooting:
+      - 'Failed connections': 'troubleshooting/failed_connections.md'
+      - 'Server uptime': 'troubleshooting/server_uptime.md'
+  - Blog:
     - blog/index.md
+    - 2022:
+      - blog/posts/2022/welcome.md
     - 2023:
-      - hello-world.md
+      - blog/posts/2023/setup_github_pages_mkdocs.md
+  - License: license.md
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  # - blog:
+  #     blog_dir: blog/posts
+  #   include_nav: true
+  #   include_rss: true
+  #   base_url: /blog/
+  #   post_dir: blog/posts
+  #   per_page: 3
+  #   rss_limit: 10
+  #   archive_title: Blog Archive
+  #   archives_url: blog/archives/
+  #   templates:
+  #     post: blog/posts/post_template.md
 
-  # - markdownextradata
-  # - search
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
-# blog:
-#   include_nav: true
-#   include_rss: true
-#   base_url: /blog/
-#   post_dir: blog/posts
-#   per_page: 3
-#   rss_limit: 10
-#   archive_title: Blog Archive
-#   archives_url: blog/archives/
-#   templates:
-#     post: blog/posts/post_template.md
-
-# nav:
-#   - Home: README.md
-#   - Blog:
-#     - blog/index.md
-  # - Git Howtos:
-  #   - Setup GitHub Pages: git_howtos/setup_github_pages_mkdocs.md
-  # - Troubleshooting:
-  #   - 'Failed connections': 'troubleshooting/failed_connections.md'
-  #   - 'Server uptime': 'troubleshooting/server_uptime.md'
-  # - About: 'about.md'
-  # - License: 'license.md'
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
