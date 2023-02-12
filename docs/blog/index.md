@@ -1,1 +1,1 @@
-# WIP: my new blog
+# Blog

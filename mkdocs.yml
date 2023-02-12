@@ -75,8 +75,10 @@ nav:
     - 2023:
       - hello-world.md
 plugins:
-  - blog:
-      blog_dir: .
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
 
   # - markdownextradata
   # - search
