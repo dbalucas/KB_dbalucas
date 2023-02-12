@@ -71,8 +71,8 @@ theme:
 nav:
   - Home: 
     - README.md
-  - About: about.md
   - KnowHow:
+    - overview/index.md
     - Git: 
       - git_howtos/git_rules.md
       - git_howtos/setup_github_pages_mkdocs.md
@@ -86,7 +86,8 @@ nav:
       - blog/posts/2022/welcome.md
     - 2023:
       - blog/posts/2023/setup_github_pages_mkdocs.md
-  - License: license.md
+  - About: overview/about.md
+  - License: overview/license.md
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
