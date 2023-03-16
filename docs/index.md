@@ -1,7 +1,7 @@
 ---
 title: WELCOME
 date: 2023-03-16
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   This repository contains all my DBA and SRE KnowHow and will be updated continuasly. A searchable list of commands for administrating a databases and other required tools.
 categories:

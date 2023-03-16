@@ -1,7 +1,7 @@
 ---
 tile: welcome to my blog
 date: 2022-12-25
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   welcome to my blog
 categories:

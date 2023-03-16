@@ -1,4 +1,4 @@
-# Git HowTos
+# Git Rules
 
 # [The 7 rules of a great git commit message](https://cbea.ms/git-commit/):
 1. Separate subject from body with a blank line

@@ -1,7 +1,7 @@
 ---
 title: How I setup my github pages
 date: 2023-02-12
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   How I setup my gh pages and knowlegebase for my self
 categories:

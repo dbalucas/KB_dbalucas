@@ -1,6 +1,6 @@
 ---
 date: {{ date }}
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   {{ description }}
 categories:

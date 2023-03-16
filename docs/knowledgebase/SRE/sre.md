@@ -1,7 +1,7 @@
 ---
 title: Site Reliability Engineer (SRE)
 date: summery about SRE and all you need to know (imho)
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   {{ description }}
 categories:

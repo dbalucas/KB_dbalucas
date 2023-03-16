@@ -1,7 +1,7 @@
 ---
 title: Credits
 date: 2023-03-16
-authors: [dblucas]
+authors: [dbalucas]
 description: >
   I'm thank full to all the writers out there and hope that I'm not getting troubles with mentioning the greatnes of all the other techs and peoples out there... In case of issues please reach out to me... I'm just starting this.
 categories:
