@@ -68,26 +68,30 @@ theme:
       - pgsql
   prev_next_buttons_location: both
 
-# nav:
-#   - Home: 
-#     - index.md
-#   - KnowHow:
-#     - overview/index.md
-#     - Git: 
-#       - git_howtos/git_rules.md
-#       - git_howtos/setup_github_pages_mkdocs.md
-#       - git_howtos/new.md
-#     - Troubleshooting:
-#       - 'Failed connections': 'troubleshooting/failed_connections.md'
-#       - 'Server uptime': 'troubleshooting/server_uptime.md'
-#   - Blog:
-#     - blog/index.md
-#     - 2022:
-#       - blog/posts/2022/welcome.md
-#     - 2023:
-#       - blog/posts/2023/setup_github_pages_mkdocs.md
-#   - About: overview/about.md
-#   - License: overview/license.md
+nav:
+  - Home: 
+    - index.md
+    - About: overview/about.md
+    - License: overview/license.md
+  - SRE:
+    - sre.md
+  - DBA:
+  - KnowHow:
+    - overview/index.md
+    - Git: 
+      - git_howtos/git_rules.md
+      - git_howtos/setup_github_pages_mkdocs.md
+      - git_howtos/new.md
+    - Troubleshooting:
+      - 'Failed connections': 'troubleshooting/failed_connections.md'
+      - 'Server uptime': 'troubleshooting/server_uptime.md'
+  - Blog:
+    - blog/index.md
+    - 2022:
+      - blog/posts/2022/welcome.md
+    - 2023:
+      - blog/posts/2023/setup_github_pages_mkdocs.md
+
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
