@@ -1,5 +1,5 @@
 ---
-tile: Site Reliability Engineer (SRE)
+title: Site Reliability Engineer (SRE)
 date: summery about SRE and all you need to know (imho)
 authors: [dblucas]
 description: >
@@ -13,7 +13,7 @@ tags:
   - theory
 ---
 
-## Tenets of SRE
+## tenets of SRE
 
 In general, an SRE team is responsible for the
 
@@ -28,18 +28,17 @@ In general, an SRE team is responsible for the
 
 of their service(s)
 
-## Take aways:
+## take aways:
 
-- SRE should caps 50% of their time on operational work. The remaining time should be spent on project work. 
+SRE should caps 50% of their time on operational work. The remaining time should be spent on project work until the load drops to 50% or lower again.
 
 !!! note " practices hint"
-  Monitor the operational work being done by SRE's and
-  
-  - redirect operational work to the development team teams, 
-  - reassigning bugs and tickets to development managers, 
-  - integrate developers in on-call rotations and so on ...
-  
-  until the load drops to 50% or lower.
+    Monitor the operational work being done by SRE's and
+    
+    - redirect operational work to the development team teams, 
+    - reassigning bugs and tickets to development managers, 
+    - integrate developers in on-call rotations and so on ...
+    
 
 ## credits
 

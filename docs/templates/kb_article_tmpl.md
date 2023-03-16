@@ -1,5 +1,5 @@
 ---
-tile: {{ title }}
+title: {{ title }}
 date: {{ date }}
 authors: [dblucas]
 description: >

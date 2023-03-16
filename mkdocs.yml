@@ -68,29 +68,27 @@ theme:
       - pgsql
   prev_next_buttons_location: both
 
-nav:
-  - Home: 
-    - index.md
-    - About: overview/about.md
-    - License: overview/license.md
-  - SRE:
-    - sre.md
-  - DBA:
-  - KnowHow:
-    - overview/index.md
-    - Git: 
-      - git_howtos/git_rules.md
-      - git_howtos/setup_github_pages_mkdocs.md
-      - git_howtos/new.md
-    - Troubleshooting:
-      - 'Failed connections': 'troubleshooting/failed_connections.md'
-      - 'Server uptime': 'troubleshooting/server_uptime.md'
-  - Blog:
-    - blog/index.md
-    - 2022:
-      - blog/posts/2022/welcome.md
-    - 2023:
-      - blog/posts/2023/setup_github_pages_mkdocs.md
+# nav:
+  # - Home: 
+  #   - 'home/about.md'
+  #   - 'home/license.md'
+  # - KnowHow:
+  #   - index.md
+  #   - git: 
+  #     - knowledgebase/git_howtos/git_rules.md
+  #     - knowledgebase/git_howtos/setup_github_pages_mkdocs.md
+  #   - troubleshooting:
+  #     - 'Failed connections': 'knowledgebase/dba/troubleshooting/failed_connections.md'
+  #     - 'Server uptime': 'knowledgebase/dba/troubleshooting/server_uptime.md'
+  #     - 'Recovery': 'knowledgebase/dba/troubleshooting/recovery_troubleshooting.md'
+  #   - working culture:
+  #     - knowledgebase/sre/sre.md
+  # - Blog:
+  #   - blog/index.md
+  #   - 2022:
+  #     - blog/posts/2022/welcome.md
+  #   - 2023:
+  #     - blog/posts/2023/setup_github_pages_mkdocs.md
 
 plugins:
   - search:
