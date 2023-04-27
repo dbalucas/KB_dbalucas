@@ -24,7 +24,7 @@ This site contains all my DBA and SRE KnowHow and will be updated continuasly:
 -  some great tips and trick i've learned over the years
 -  whatever will come to my mind
 
-!!! success "my mindset"
+!!! tip "my mindset"
 
     **I'm an inquisitive database admin evolving a Site Reliability Engineering mindset. The ability to build reliable, high-quality systems and technical abilities depends on a team with a positive work culture.**
 
