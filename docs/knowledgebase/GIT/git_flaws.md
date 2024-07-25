@@ -10,11 +10,12 @@ tags:
   - git
 ---
 
+## Summary:
+
 Today I read an article about some git flaws. Moste people are not aware of it. Private and Public repositories are not always secure by default. This article is a referrence to the circumstances:
 
 https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github
 
-## Summary:
 > 
 > We have a few takeaways from this:
 > 
