@@ -1,9 +1,9 @@
 ---
-title: {{ Git flaws }}
-date: {{ 2024-07-25 }}
+title: Git flaws
+date: 2024-07-25
 authors: [dbalucas]
 description: >
-  {{ anyone can access deleted and private repos on github }}
+  anyone can access deleted and private repos on github
 categories:
   - git
 tags:
