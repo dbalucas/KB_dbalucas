@@ -3,7 +3,7 @@ site_name: 'KB dbalucas'
 site_url: https://dbalucas.github.io/KB_dbalucas
 site_author: dbalucas
 site_description: >-
-  This repository contains all my DBA KnowHow and is a great list of quick 
+  This repository contains all my DBA KnowHow and is a great list of quick
   and searchable commands for administrating a database.
 
 # Repository
@@ -43,12 +43,12 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
-  palette: 
+  palette:
     - scheme: slate
       primary: pink
       accent: pink
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
     - scheme: default
       primary: pink
@@ -69,12 +69,12 @@ theme:
   prev_next_buttons_location: both
 
 # nav:
-  # - Home: 
+  # - Home:
   #   - 'home/about.md'
   #   - 'home/license.md'
   # - KnowHow:
   #   - index.md
-  #   - git: 
+  #   - git:
   #     - knowledgebase/git_howtos/git_rules.md
   #     - knowledgebase/git_howtos/setup_github_pages_mkdocs.md
   #   - troubleshooting:
@@ -95,6 +95,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  - glightbox:
   # - blog:
   #     blog_dir: blog/posts
   #   include_nav: true
@@ -151,7 +152,7 @@ markdown_extensions:
 extra:
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
