@@ -19,4 +19,5 @@ As well I'd like to mention that much of my commands and knowhow I've learned fr
 
 ## credits
 
-[Thanks to google to provide this awesome content and sharing your experience:](https://sre.google/books/)
+- [sre google](https://sre.google/books/)
+- [cronjobs](./knowledgebase/LINUX/cron.md/#credits)
