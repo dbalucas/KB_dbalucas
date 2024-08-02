@@ -9,3 +9,6 @@ categories:
 tags:
   - {{ tags }}
 ---
+
+# credits
+- [refs](links) *20xx-xx-xx hh:mm CEST*
